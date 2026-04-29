@@ -25,7 +25,11 @@
                 countercontainer.classList.remove("positive");
                 countercontainer.classList.add("negative");
 
+            }else{
+                   countercontainer.classList.remove("positive","negative");
+
             }
+
 
     });
 
